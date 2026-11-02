@@ -1,6 +1,6 @@
 cask "headspare" do
-  version "0.1.1"
-  sha256 "32e75023674683f05a775f1a9c9b61946f87a18da2f81ff19d9bcd8c7b4c0232"
+  version "0.1.2"
+  sha256 "d10edd894ccbd349c594aa80682189a507e2a6f6ea98e69a6dbe41d742cb6467"
 
   url "https://github.com/mikezamayias/headspare-releases/releases/download/mac-v#{version}/Headspare-#{version}.zip"
   name "Headspare"
