@@ -4,7 +4,7 @@ cask "headspare" do
 
   url "https://github.com/mikezamayias/headspare-releases/releases/download/mac-v#{version}/Headspare-#{version}.zip"
   name "Headspare"
-  desc "Shows how much of each AI subscription limit is left"
+  desc "How much AI you have to spare"
   homepage "https://headspare.app/"
 
   livecheck do
