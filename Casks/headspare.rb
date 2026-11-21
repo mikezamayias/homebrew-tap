@@ -1,6 +1,6 @@
 cask "headspare" do
-  version "0.1.9"
-  sha256 "639758373135263a88cece5e9d3870ec664c25f5cf05173339f7dda5295cb805"
+  version "0.1.10"
+  sha256 "0db49765d0abb24be17b284d8c7147f570e34d63d0ff9d21cec5ebc431de779d"
 
   url "https://github.com/mikezamayias/headspare-releases/releases/download/mac-v#{version}/Headspare-#{version}.zip"
   name "Headspare"
@@ -12,6 +12,7 @@ cask "headspare" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on macos: :tahoe
 
   app "Headspare.app"
